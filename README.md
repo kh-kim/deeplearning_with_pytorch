@@ -12,7 +12,7 @@
 
 ## 지은이: 김기현(Kim, Ki Hyun)
 
-![김기현](./assets/me.jpeg){ width=300px }
+![김기현](../assets/me.jpeg){ width=300px }
 
 ### 연락처
 
@@ -34,6 +34,6 @@
 
 ## 패스트캠퍼스 강의 소개
 
-![자연어처리 심화 캠프](./assets/fastcampus_lecture.png)
+![자연어처리 심화 캠프](../assets/fastcampus_lecture.png)
 
 이 책은 패스트캠퍼스에서 진행한 [자연어처리 입문 캠프](https://www.fastcampus.co.kr/data_camp_nlpbasic/), [자연어처리 심화 캠프](http://www.fastcampus.co.kr/data_camp_nlpadv/) 강의가 바탕이 되었습니다.
