@@ -32,6 +32,10 @@ y={x}\cdot{W}+b\\
 
 $$b\in\mathbb{R}^m\longrightarrow|b|=(m,)$$
 
+```python
+x
+```
+
 $$\begin{gathered}
 y=[x;1]\cdot{W}\\
 \text{where }W\in\mathbb{R}^{(n+1)\times{m}}.
