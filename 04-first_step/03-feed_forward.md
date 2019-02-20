@@ -6,8 +6,8 @@ y=f(x) \\
 \end{gathered}$$
 
 $$\begin{gathered}
-y=W\cdot{x}\\
-\text{where }W\in\mathbb{R}^{m\times{n}}
+y=W^T\cdot{x}\\
+\text{where }W\in\mathbb{R}^{n\times{m}}
 \end{gathered}$$
 
 $$\begin{gathered}
