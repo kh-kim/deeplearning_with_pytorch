@@ -37,8 +37,8 @@ x
 ```
 
 $$\begin{gathered}
-y=[x;1]\cdot{W}\\
-\text{where }W\in\mathbb{R}^{(n+1)\times{m}}.
+y=[x;1]\cdot{[W;b]}\\
+\text{where }W\in\mathbb{R}^{n\times{m}}\text{, }b\in\mathbb{R}^{m}\text{ and }x\in\mathbb{R}^{k\times(n+1)}\text{, }[W;b]\in\mathbb{R}^{(n+1)\times{m}}.
 \end{gathered}$$
 
 ```python
