@@ -37,3 +37,9 @@ $$\begin{gathered}
 \text{, where }|x^i|=(1,n)\text{ and }|y^i|=(1,m).
 \end{gathered}$$
 -->
+
+## Global Minima
+
+## Local Minima
+
+## Saddle Point

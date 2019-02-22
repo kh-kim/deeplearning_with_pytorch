@@ -22,3 +22,7 @@ $$\begin{gathered}
 $$\begin{gathered}
 \theta\leftarrow\theta-\alpha\nabla_\theta\mathcal{L(\theta)}
 \end{gathered}$$
+
+## Precision
+
+## Recall
