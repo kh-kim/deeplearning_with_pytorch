@@ -23,6 +23,32 @@ $$\begin{gathered}
 \theta\leftarrow\theta-\alpha\nabla_\theta\mathcal{L(\theta)}
 \end{gathered}$$
 
+## 확률 관점에서 결과를 해석하기
+
+$$\begin{gathered}
+y=\begin{bmatrix}
+y_1 \\
+y_2 \\
+y_3
+\end{bmatrix}=\begin{bmatrix}
+1 \\
+1 \\
+0
+\end{bmatrix}\text{, }
+\hat{y}=\begin{bmatrix}
+.4 \\
+.7 \\
+.2
+\end{bmatrix}
+\end{gathered}$$
+
+$$\begin{gathered}
+\begin{aligned}
+f_\theta(x_i)=\hat{y}_i&=P_\theta(\text{y}_i=1) \\
+&=1-P_\theta(\text{y}_i=0)
+\end{aligned}
+\end{gathered}$$
+
 ## Precision
 
 ## Recall
