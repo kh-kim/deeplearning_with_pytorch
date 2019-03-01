@@ -65,7 +65,9 @@ $$\begin{gathered}
 
 ## Conditional Distribution
 
-$$P(y|x)=\frac{P(x,y)}{P(x)}$$
+$$\begin{gathered}
+P(y|x)=\frac{P(x,y)}{P(x)}
+\end{gathered}$$
 
 $$\begin{aligned}
 P(y|x)&=\frac{P(x,y)}{P(x)} \\
