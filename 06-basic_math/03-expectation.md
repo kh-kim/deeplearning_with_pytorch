@@ -11,11 +11,15 @@ $$\begin{gathered}
 \text{where }x_1,x_2,\cdots,x_k\sim{P(\text{x})}.
 \end{gathered}$$
 
-$$\mathbb{E}_{x\sim{P(\text{x})}}[x]$$
+$$\begin{gathered}
+\mathbb{E}_{x\sim{P(\text{x})}}[x]
+\end{gathered}$$
 
-$$\mathbb{E}_{x\sim{P(\text{x})}}[x]=\sum_{x\in\mathcal{X}}{x}\cdot{P(x)}$$
-
-$$\mathbb{E}_{x\sim{p(\text{x})}}\big[f(x)\big]=\int{p(x)\cdot{f(x)}}~dx$$
+$$\begin{gathered}
+\mathbb{E}_{x\sim{P(\text{x})}}[x]=\sum_{x\in\mathcal{X}}{x}\cdot{P(x)} \\
+\\
+\mathbb{E}_{x\sim{p(\text{x})}}\big[f(x)\big]=\int{p(x)\cdot{f(x)}}~dx
+\end{gathered}$$
 
 ### 주사위 홀짝 도박 게임
 
@@ -38,4 +42,6 @@ P(\text{x}=4)=P(\text{x}=5)=P(\text{x}=6)=\frac{1}{9}.
 
 ## 몬테카를로 샘플링
 
-$$\mathbb{E}_{\text{x}\sim{P(x)}}\big[f(x)\big]\approx\frac{1}{k}\sum_{i=1}^k{f(x_i)}$$
+$$\begin{gathered}
+\mathbb{E}_{\text{x}\sim{P(x)}}\big[f(x)\big]\approx\frac{1}{k}\sum_{i=1}^k{f(x_i)}
+\end{gathered}$$

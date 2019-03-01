@@ -2,7 +2,9 @@
 
 ## 정보량
 
-$$I(x)=-\log{P(x)}$$
+$$\begin{gathered}
+I(x)=-\log{P(x)}
+\end{gathered}$$
 
 ## 엔트로피
 

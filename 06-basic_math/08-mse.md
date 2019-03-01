@@ -1,6 +1,8 @@
 # MSE의 재해석
 
-$$\mathcal{D}=\{x_i,y_i\}_{i=1}^N$$
+$$\begin{gathered}
+\mathcal{D}=\{x_i,y_i\}_{i=1}^N
+\end{gathered}$$
 
 $$\begin{gathered}
 \begin{aligned}

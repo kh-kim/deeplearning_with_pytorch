@@ -4,22 +4,26 @@ $$P(\text{x}=x)$$
 
 ## Discrete Variables
 
-$$\sum_{i=1}^N{P(\text{x}=x_i)=\sum_{i=1}^N{P(x_i)=1}}$$
+$$\begin{gathered}
+\sum_{i=1}^N{P(\text{x}=x_i)=\sum_{i=1}^N{P(x_i)=1}}
+\end{gathered}$$
 
 ## Continuous Variables
 
 $$\begin{gathered}
 \forall{x}\in\text{x}\text{, }p(x)\ge{0}. \\
-\text{We don't require that }p(x)\le{1}.
+\text{We don't require that }p(x)\le{1}. \\
+\\
+\int_{-\infty}^{\infty}{p(x)}~dx=1
 \end{gathered}$$
-
-$$\int_{-\infty}^{\infty}{p(x)}~dx=1$$
 
 ## Distribution Function
 
-$$f(x)=P(\text{x}=x)$$
-
-$$y=\int_{-k}^{k}{f(x)}~dx$$
+$$\begin{gathered}
+f(x)=P(\text{x}=x) \\
+\\
+y=\int_{-k}^{k}{f(x)}~dx
+\end{gathered}$$
 
 ### Binomial Distribution
 
@@ -37,13 +41,17 @@ f(x,\theta)=p(x;\theta)=\frac{1}{\sigma\sqrt{2\pi}}\exp{\Bigg(-\frac{(x-\mu)^2}{
 
 ## Joint Distribution
 
-$$P(\text{x},\text{y})$$
+$$\begin{gathered}
+P(\text{x},\text{y})
+\end{gathered}$$
 
 ### Marginal Distribution
 
-$$P(x)=\sum_{y\in\mathcal{Y}}{P(\text{x}=x,\text{y}=y)}$$
-
-$$p(x)=\int{p(x,y)}~dy$$
+$$\begin{gathered}
+P(x)=\sum_{y\in\mathcal{Y}}{P(\text{x}=x,\text{y}=y)} \\
+\\
+p(x)=\int{p(x,y)}~dy
+\end{gathered}$$
 
 ### Independant
 
@@ -51,7 +59,9 @@ $$\begin{gathered}
 P(x,y)=P(x)P(y)\text{, }\forall{x, y}
 \end{gathered}$$
 
-$$\frac{P(x,y)}{P(x)P(y)}=1\text{, }\forall{x, y}$$
+$$\begin{gathered}
+\frac{P(x,y)}{P(x)P(y)}=1\text{, }\forall{x, y}
+\end{gathered}$$
 
 ## Conditional Distribution
 
@@ -80,4 +90,6 @@ P(x,y)=P(y|x)P(x) \\
 
 ## Bayes Theorem
 
-$$P(y|x)=\frac{P(x|y)P(y)}{P(x)}$$
+$$\begin{gathered}
+P(y|x)=\frac{P(x|y)P(y)}{P(x)}
+\end{gathered}$$

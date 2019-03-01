@@ -14,7 +14,10 @@ $$\begin{gathered}
 |\mathcal{D}|=n\text{ and }\text{sum}(\mathcal{D})=k.
 \end{gathered}$$
 
-$$f_\mathcal{D}(\theta)=P(\mathcal{D};\theta)=\frac{n!}{k!\cdot(n-k)!}\cdot\theta^k(1-\theta)^{n-k}$$
+$$\begin{aligned}
+f_\mathcal{D}(\theta)&=P(\mathcal{D};\theta) \\
+&=\frac{n!}{k!\cdot(n-k)!}\cdot\theta^k(1-\theta)^{n-k}
+\end{aligned}$$
 
 ## MLE란
 
@@ -26,13 +29,16 @@ $$\begin{gathered}\hat{\theta}=\underset{\theta\in\Theta}{\text{argmax }}J(\thet
 
 ### 일반화
 
-$$J(\theta)=\mathbb{E}_{x\sim{P(\text{x})}}\big[P(x;\theta)\big]$$
+$$\begin{gathered}
+J(\theta)=\mathbb{E}_{x\sim{P(\text{x})}}\big[P(x;\theta)\big]
+\end{gathered}$$
 
-$$\mathcal{D}=\{x_i,y_i\}_{i=1}^N$$
-
-$$P(y|x;\theta)$$
-
-$$J(\theta)=\mathbb{E}_{x\sim{P(\text{x})}}\Big[\mathbb{E}_{y\sim{P(\text{y}|x)}}\big[P(y|x;\theta)\big]\Big]$$
+$$\begin{gathered}
+\mathcal{D}=\{x_i,y_i\}_{i=1}^N \\
+P(y|x;\theta) \\
+\\
+J(\theta)=\mathbb{E}_{x\sim{P(\text{x})}}\Big[\mathbb{E}_{y\sim{P(\text{y}|x)}}\big[P(y|x;\theta)\big]\Big]
+\end{gathered}$$
 
 ## Log-likelihood
 
@@ -47,9 +53,13 @@ p(x;\theta)=\frac{1}{\sigma\sqrt{2\pi}}\exp{\Bigg(-\frac{(x-\mu)^2}{2\sigma^2}\B
 \text{where }\theta=\{\mu,\sigma\}.
 \end{gathered}$$
 
-$$\log{p(x;\theta)}=-\log{\sigma\sqrt{2\pi}}-\frac{(x-\mu)^2}{2\sigma^2}$$
+$$\begin{gathered}
+\log{p(x;\theta)}=-\log{\sigma\sqrt{2\pi}}-\frac{(x-\mu)^2}{2\sigma^2}
+\end{gathered}$$
 
-$$J(\theta)=\mathbb{E}_{x\sim{P(\text{x})}}\Big[\log{P(x;\theta)}\Big]$$
+$$\begin{gathered}
+J(\theta)=\mathbb{E}_{x\sim{P(\text{x})}}\Big[\log{P(x;\theta)}\Big]
+\end{gathered}$$
 
 ## Negative Log-likelihood
 
